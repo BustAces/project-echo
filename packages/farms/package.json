@@ -1,0 +1,28 @@
+{
+  "name": "@kazama-defi/farms",
+  "version": "1.0.24",
+  "sideEffects": false,
+  "private": true,
+  "scripts": {
+    "build": "npx tsx scripts/build.ts",
+    "test": "vitest --run"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "tsx": "^3.12.1",
+    "wrangler": "2.20.1"
+  },
+  "dependencies": {
+    "@kazama-defi/sdk": "workspace:*",
+    "@kazama-defi/swap-sdk-core": "workspace:*",
+    "@kazama-defi/token-lists": "workspace:*",
+    "@kazama-defi/tokens": "workspace:*",
+    "@kazama-defi/utils": "workspace:*",
+    "@kazama-defi/v3-sdk": "workspace:*",
+    "@kazama-defi/chains": "workspace:*",
+    "bignumber.js": "^9.0.0",
+    "dayjs": "^1.11.10",
+    "lodash": "^4.17.21",
+    "viem": "1.15.1"
+  }
+}

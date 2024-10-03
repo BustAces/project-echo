@@ -1,0 +1,26 @@
+{
+  "name": "@kazama-defi/position-managers",
+  "version": "0.0.1",
+  "sideEffects": false,
+  "private": true,
+  "scripts": {
+    "test": "vitest --run"
+  },
+  "type": "module",
+  "dependencies": {
+    "@kazama-defi/sdk": "workspace:*",
+    "@kazama-defi/v3-sdk": "workspace:*",
+    "@kazama-defi/token-lists": "workspace:*",
+    "@kazama-defi/tokens": "workspace:*",
+    "@kazama-defi/chains": "workspace:*",
+    "bignumber.js": "^9.0.0",
+    "lodash": "^4.17.21",
+    "viem": "1.15.1",
+    "wagmi": "1.4.3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@kazama-defi/tsconfig": "workspace:*",
+    "@kazama-defi/utils": "workspace:*"
+  }
+}

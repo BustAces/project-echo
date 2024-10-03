@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  font-family: 'FS Elliot Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  background: #1D1E2A url("./assets/background.jpg") no-repeat top center;
+  box-sizing: border-box;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@kazama-defi/ifos",
+  "version": "0.0.1",
+  "sideEffects": false,
+  "private": true,
+  "scripts": {
+    "test": "vitest --run"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@kazama-defi/sdk": "workspace:*",
+    "@kazama-defi/tokens": "workspace:*",
+    "@kazama-defi/utils": "workspace:*",
+    "viem": "^1.15.1",
+    "wagmi": "^1.4.3"
+  },
+  "dependencies": {
+    "@layerzerolabs/scan-client": "^0.0.6",
+    "@kazama-defi/chains": "workspace:*",
+    "bignumber.js": "^9.0.0"
+  },
+  "devDependencies": {
+    "@kazama-defi/sdk": "workspace:*",
+    "@kazama-defi/tokens": "workspace:*",
+    "@kazama-defi/tsconfig": "workspace:*",
+    "@kazama-defi/utils": "workspace:*",
+    "viem": "1.15.1",
+    "wagmi": "1.4.3"
+  }
+}

@@ -1,0 +1,36 @@
+/* Font 1 */
+@font-face {
+  font-family: 'Industry-Black';
+  src: url('/assets/fonts/Industry-Black/Industry-Black.woff2') format('woff2'),
+    url('/assets/fonts/Industry-Black/Black-Industry.woff') format('woff'),
+    url('/assets/fonts/Industry-Black/Black-Industry.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Font 2 */
+@font-face {
+  font-family: 'Flama';
+  src: url('/assets/fonts/Flama/Flama.woff2') format('woff2'), url('/assets/fonts/Flama/Flama.woff') format('woff'),
+    url('/assets/fonts/Flama/Flama.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Font 3 */
+@font-face {
+  font-family: 'Flama Bold';
+  src: url('/assets/fonts/Flama Bold/Flama Bold.woff2') format('woff2'),
+    url('/assets/fonts/Flama Bold/Flama Bold.woff') format('woff'),
+    url('/assets/fonts/Flama Bold/Flama Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Font 4 */
+@font-face {
+  font-family: 'Bai Jamjuree';
+  src: url('/assets/fonts/Bai-Jamjuree/BaiJamjuree-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}

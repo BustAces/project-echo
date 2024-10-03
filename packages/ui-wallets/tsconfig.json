@@ -1,0 +1,10 @@
+{
+  "extends": "@kazama-defi/tsconfig/react-library",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@kazama-defi/uikit": ["../../packages/uikit/src/index.ts"],
+      "@kazama-defi/uikit/*": ["../../packages/uikit/src/*"]
+    }
+  }
+}

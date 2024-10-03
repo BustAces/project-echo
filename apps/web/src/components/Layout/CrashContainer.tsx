@@ -1,0 +1,9 @@
+import { Box, BoxProps } from '@kazama-defi/uikit'
+
+const CrashContainer: React.FC<React.PropsWithChildren<BoxProps>> = ({ children, ...props }) => (
+  <Box px={['16px', '24px']} mx="auto" maxWidth="1250px" {...props}>
+    {children}
+  </Box>
+)
+
+export default CrashContainer

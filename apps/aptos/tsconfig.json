@@ -1,0 +1,17 @@
+{
+  "extends": "@kazama-defi/tsconfig/nextjs.json",
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "vitest.config.ts"],
+  "compilerOptions": {
+    "target": "ES2020",
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "@kazama-defi/awgmi": ["../../packages/awgmi/src"],
+      "@kazama-defi/awgmi/core": ["../../packages/awgmi/core/src"],
+      "@kazama-defi/awgmi/connectors/*": ["../../packages/awgmi/connectors/*"],
+      "@kazama-defi/uikit": ["../../packages/uikit/src/index.ts"],
+      "@kazama-defi/uikit/*": ["../../packages/uikit/src/*"]
+    }
+  }
+}

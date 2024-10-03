@@ -1,0 +1,23 @@
+.roulette {
+  margin: -26px auto;
+  width: 1400px;
+  height: 227px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 24px 109px rgba(0, 0, 0, 0.39);
+  position: relative;
+}
+
+/*.forLowWidth {*/
+/*  margin-left: 200px;*/
+/*}*/
+
+@media screen and (max-width: 1420px) {
+  .roulette {
+    width: 1000px;
+  }
+
+  .forLowWidth {
+    margin-left: 0;
+  }
+}

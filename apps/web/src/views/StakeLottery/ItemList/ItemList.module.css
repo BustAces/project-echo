@@ -1,0 +1,26 @@
+.itemList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.itemList h2 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.itemList img {
+  padding-bottom: 24px;
+}
+
+.container {
+  margin: 0 auto;
+  padding-right: -13px;
+  max-width: 1400px;
+  min-width: 1024px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /*justify-content: space-around;*/
+}

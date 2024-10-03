@@ -1,0 +1,69 @@
+.rouletteItem {
+  width: 200px;
+  height: 227px;
+  background: radial-gradient(116.96% 153.22% at 131.9% -61.54%, #4B2EFF -200%, rgba(28, 29, 37, 0) 100%), #18181E;
+  position: relative;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.rouletteJustLine {
+  height: 70px;
+  border-right: 2px solid #4B2EFF;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.rouletteItemPrice {
+  font-weight: 700;
+  font-size: 15px;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 22px;
+}
+
+.rouletteItemInner {
+  position: relative;
+  z-index: 1;
+}
+
+.rouletteItemInner:before {
+  position: absolute;
+  content: url("../assets/g-roulette.png");
+  opacity: .2;
+  top: 47px;
+  left: 51px;
+  margin: 0 auto;
+}
+
+.rouletteItemLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 155px;
+  height: 113px;
+  overflow: hidden;
+}
+
+.rouletteItemLogo > img {
+  width: 155px;
+}
+
+.rouletteItemDescription {
+  text-align: center;
+  font-size: 15px;
+  line-height: 2px;
+  margin-top: 35px;
+}
+
+.rouletteItemSubName {
+  color: #B3B0B9;
+}
+
+@media screen and (max-width: 1420px) {
+  .roulette {
+    width: 1000px;
+  }
+}

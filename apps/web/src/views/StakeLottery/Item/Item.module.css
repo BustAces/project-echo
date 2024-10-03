@@ -1,0 +1,67 @@
+.item {
+  width: 187px;
+  height: 139px;
+  background: radial-gradient(116.96% 153.22% at 131.9% -61.54%, #4B2EFF -200%, rgba(28, 29, 37, 0) 100%), #232531;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 13px;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.itemJustLine {
+  height: 30px;
+  border-right: 2px solid #F89E4B;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.itemInner {
+  position: relative;
+  width: 144px;
+  height: 105px;
+  z-index: 1;
+}
+
+.itemInner:before {
+  position: absolute;
+  content: url("../assets/g.svg");
+  top: 13px;
+  left: 32px;
+  z-index: -1;
+  opacity: .2;
+}
+
+.itemLogo {
+  width: 144px;
+  height: 105px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemLogo > img {
+  width: 144px;
+}
+
+.itemDescription {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  line-height: 2px;
+}
+
+.itemName {
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.itemSubName {
+  font-size: 14px;
+  font-weight: 700;
+}

@@ -1,0 +1,6 @@
+{
+  "extends": "@kazama-defi/tsconfig/react-library.json",
+  "compilerOptions": {
+    "target": "ES2015"
+  }
+}
